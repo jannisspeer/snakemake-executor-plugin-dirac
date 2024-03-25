@@ -5,14 +5,18 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "snakemake-executor-plugin-dirac"
 version = "0.1.0"
-description = ""
-authors = [ "jannisspeer <jannis.speer@tutanota.com>",]
+description = "A Snakemake executor plugin for submitting jobs with the DIRAC interware."
+authors = [
+    "Jannis Speer <jspeer@tutanota.com>",
+    "Fabio De Vellis <fa.devellis@gmail.com>",
+]
 readme = "README.md"
-repository = "https://github.com/your/plugin"
+license = "MIT"
+repository = "https://github.com/jannisspeer/snakemake-executor-plugin-dirac"
 documentation = "https://snakemake.github.io/snakemake-plugin-catalog/plugins/executor/dirac.html"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 snakemake-interface-common = "^1.17.1"
 snakemake-interface-executor-plugins = "^9.0.0"
 

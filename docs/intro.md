@@ -1,0 +1,1 @@
+[DIRAC](https://dirac.readthedocs.io/en/latest/index.html) is an interware, meaning a software framework for distributed computing.
